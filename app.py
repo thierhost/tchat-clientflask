@@ -1,6 +1,5 @@
-#/usr/bin/env python3
+#/usr/bin/env python2.7
 # -*- coding:utf-8 -*-
-#Ici on importe la bibliotheque flask ainsi que  l'objet request   
 from flask import Flask,request,redirect,url_for,render_template
 import os
 
