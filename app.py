@@ -1,0 +1,21 @@
+#/usr/bin/env python3
+# -*- coding:utf-8 -*-
+#Ici on importe la bibliotheque flask ainsi que  l'objet request   
+from flask import Flask,request,redirect,url_for,render_template
+import os
+
+
+app=Flask(__name__)
+
+#definition des routes
+@app.route('/')
+def index():
+	return render_template("index.html")
+
+@app.route('/discussions')
+def discussions():
+	return render_template("discussions.html")
+
+
+app.run(debug= True)
+	
