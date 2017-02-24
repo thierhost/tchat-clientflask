@@ -1,1 +1,3 @@
+python==2.7.13
+pyton-pip==9.0.1
 flask==0.12
